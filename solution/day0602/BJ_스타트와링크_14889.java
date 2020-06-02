@@ -6,6 +6,14 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/*
+1. N개의 팀을 M(=N/2)로 나눈다 (start, link)
+2. 조합 nCm - divideTeam()
+3. 조합으로 나눈 start 팀이 아니면 link팀에 넣는다. -findLink()
+4. start팀과 link팀 총 2번을 조합 mC2 - teamScore() 
+5. 조합해서 나온 2명의 능력치를 Sum에 넣어준다. 
+6. start팀과 link팀의 총능력치를 비교해 최소값을 출력한다. 
+*/
 public class BJ_스타트와링크_14889 {
 		static int N, M, min, Sum;
 		static int[][] score;
