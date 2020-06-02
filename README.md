@@ -13,7 +13,7 @@ System.exit(0) -> 자바프로그램 정상 종료
 ---
 ## 사용한 알고리즘! 문제 링크 걸기  
 - 조합  
-  * (백준-스타트와링크)[https://github.com/jiminlim/algo/edit/master/solution/day0602/BJ_%EC%8A%A4%ED%83%80%ED%8A%B8%EC%99%80%EB%A7%81%ED%81%AC_14889.java] 
+  * [백준-스타트와링크](https://github.com/jiminlim/algo/edit/master/solution/day0602/BJ_%EC%8A%A4%ED%83%80%ED%8A%B8%EC%99%80%EB%A7%81%ED%81%AC_14889.java)
 
 ㅡ
 
