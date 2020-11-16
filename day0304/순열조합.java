@@ -62,6 +62,7 @@ public class 순열조합{
 				third(n, r, flag | 1 << i, count + 1);
 			}
 		}
+		
 	}
 
 	public static void second(int n, int r, int start, int count) {
