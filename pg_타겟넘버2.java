@@ -1,6 +1,6 @@
 package day0112;
 
-public class pg_Å¸°Ù³Ñ¹ö2 {
+public class pg_íƒ€ê²Ÿë„˜ë²„2 {
 
 	public static void main(String[] args) {
 		System.out.println(solution(new int[] {1, 1, 1, 1, 1},3));
@@ -9,7 +9,7 @@ public class pg_Å¸°Ù³Ñ¹ö2 {
 	public static int solution(int[] numbers, int target) {
 		
 		return BFS(numbers, target, numbers[0],1)+
-				BFS(numbers, target, -numbers[0],1); // À½¼ö ½ÃÀÛ
+				BFS(numbers, target, -numbers[0],1);// ìŒìˆ˜ ì‹œì‘
 	}
 
 	private static int BFS(int[] numbers, int target, int sum, int j) {
