@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class sw_ÇÜ½ºÅÍ6 {
+public class sw_햄스{{
 	static int N, X, M, max;
 	static int[][] record;
 	static String str ;
