@@ -7,12 +7,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class sw_«‹Ω∫≈Õ6 {
+public class sw_√á√ú¬Ω¬∫√Ö√ç6 {
 	static int N, X, M, max;
 	static int[][] record;
 	static String str ;
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("./src/day0314/«‹¬Ó"));
+		System.setIn(new FileInputStream("./src/day0314/√á√ú√Ç√Æ"));
 		Scanner sc = new Scanner(System.in);
 		int TC = sc.nextInt();
 		for (int tc = 1; tc <= TC; tc++) {
