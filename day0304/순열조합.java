@@ -64,7 +64,18 @@ public class 순열조합{
 		}
 		
 	}
+static void per1(int[] arr, int depth, int n, int r) {
+	if(depth == r) {
+		print(arr, r);
+		return;
+	}
 
+	for(int i=depth; i<n; i++) {
+		swap(arr, depth, i);
+		per1(arr, depth + 1, n, r);
+		swap(arr, depth, i);
+	}
+}
 	public static void second(int n, int r, int start, int count) {
 		if (r == count) {
 			for (int i = 0; i < r; i++) {
