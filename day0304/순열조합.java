@@ -76,6 +76,20 @@ static void per1(int[] arr, int depth, int n, int r) {
 		swap(arr, depth, i);
 	}
 }
+public static void permu(int n,int r, int cnt, int[] num, boolean[] check ,char[] in){ // 순열
+        if(r==cnt){
+            print(arr, r);
+		return;
+        }
+        for(int i=0;i<n;i++){
+            if(!check[i]){
+                check[i] = true;
+                num[cnt] = i;
+                permu(n,r,cnt+1,num,check,in);
+                check[i] = false;
+            }
+        }
+    }
 	public static void second(int n, int r, int start, int count) {
 		if (r == count) {
 			for (int i = 0; i < r; i++) {
